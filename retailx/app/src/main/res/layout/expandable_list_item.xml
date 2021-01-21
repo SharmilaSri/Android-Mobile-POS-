@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFDFCFC">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <com.retailx.dreamdx.retailx.utils.CircularImageView
+            android:id="@+id/id_imageCamera"
+            android:onClick="addImageCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/camera_icon" />
+
+        <TextView
+            android:id="@+id/image_gone"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addImageCamera"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="ADD IMAGE (OPTIONAL)"
+            android:textSize="@dimen/small"
+            android:textColor="@color/colorTxtHintOptional" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/id_btn_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:enabled="false"
+        android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+        android:textColorHint="@color/colorTxtHintOptional_madatory"
+        android:hint="CATEGORY " />
+
+    <EditText
+        android:id="@+id/id_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:enabled="false"
+        android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+        android:textColorHint="@color/colorTxtHintOptional_madatory"
+        android:hint="DESCRIPTION" />
+
+    <EditText
+        android:id="@+id/id_btn_add_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:enabled="false"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:textColorHint="@color/colorTxtHintOptional_madatory"
+        android:hint="ADD STOCK" />
+
+</LinearLayout>

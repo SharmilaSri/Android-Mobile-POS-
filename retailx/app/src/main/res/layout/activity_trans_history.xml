@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListItemActivity">
+
+    <LinearLayout
+        android:id="@+id/full_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFBFB"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin"
+            android:weightSum="6.50"
+            >
+
+            <android.support.v7.widget.SearchView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_list"
+                app:defaultQueryHint="Enter Id"
+                android:visibility="visible">
+
+            </android.support.v7.widget.SearchView>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:onClick="showDialog"
+                android:paddingBottom="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:layout_marginRight="@dimen/margin"
+                android:background="@drawable/bg_orange_histroy_screen_icon"
+                android:drawableLeft="@drawable/ic_money_on_black_24dp"
+                android:drawablePadding="@dimen/padding"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:background="@drawable/bg_orange_histroy_screen_icon"
+                android:onClick="showDialogCustomer"
+                android:layout_marginRight="@dimen/margin"
+                android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+                android:drawablePadding="@dimen/padding"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/datepicker"
+                android:background="@drawable/bg_orange_histroy_screen_icon"
+                android:layout_width="0dp"
+                android:layout_weight="1.50"
+                android:paddingBottom="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:textColor="@color/colorPrimaryMainWhite"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:text="Today "/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:visibility="gone"
+        android:id="@+id/layout_linear_search">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:text="date"
+            android:visibility="gone"
+            android:onClick="closeDate"
+            android:padding="@dimen/padding"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/bg_search_firelds_history_screen"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_clear_white_24dp"
+            />
+
+            <TextView
+                android:id="@+id/txt_payment_type"
+                android:text="cash"
+                android:onClick="closePayment"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="@dimen/padding"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:layout_width="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/bg_search_firelds_history_screen"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_clear_white_24dp"
+                android:drawablePadding="@dimen/padding"
+                />
+
+        <TextView
+            android:id="@+id/txt_customer"
+            android:text="customer"
+            android:onClick="closeCustmer"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/bg_search_firelds_history_screen"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_clear_white_24dp"
+            android:drawablePadding="@dimen/padding"
+            />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:gravity="center"
+            android:id="@+id/layout_linear">
+            <LinearLayout
+                android:layout_margin="@dimen/margin"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Id"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:gravity="center"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Date"
+                    android:gravity="center"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+           />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2.75"
+                android:visibility="visible"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingLeft="@dimen/padding"
+                    android:text="Type"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.25"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/trans_recycler"
+            android:layout_height="0dp"
+            android:layout_weight="6.75"
+            android:background="@drawable/bg_grid"
+            android:visibility="visible">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/empty_show"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_grid"
+            android:gravity="center"
+            android:layout_weight="6.5"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            >
+
+            <ImageView
+                android:padding="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_man"/>
+            <TextView
+                android:id="@+id/empty_list_text"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxtHintOptional"
+                android:lines="2"
+                android:textAlignment="center"
+                android:text="Oops! No Transaction available"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingRight="@dimen/padding"
+            android:paddingLeft="@dimen/padding"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+        <Button
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:padding="@dimen/padding"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total_amount"
+            android:background="@drawable/bg_btn_date"
+            android:textColor="@color/colorPrimaryMainWhite"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

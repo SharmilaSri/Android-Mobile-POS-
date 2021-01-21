@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateProductActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:padding="@dimen/padding">
+
+
+        <EditText
+            android:id="@+id/edt_stock_in_hand"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="ENTER STOCK"
+            android:inputType="number"
+            android:textSize="40sp"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/colorBgImageTxt"/>
+
+
+        <EditText
+            android:id="@+id/et_stock_minimum"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/colorTxtHintOptional_madatory"
+            android:hint="ENTER MINIMUM"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginTop="@dimen/margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSaveStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_selector"
+                android:text="SAVE"
+                android:textColor="@drawable/txt_btn_login_selector" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

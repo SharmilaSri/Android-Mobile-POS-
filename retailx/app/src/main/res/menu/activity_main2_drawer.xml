@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bussiness_info"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="CHECK OUT"
+            />
+        <item
+            android:id="@+id/edit_product"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="PRODUCTS" />
+        <item
+            android:id="@+id/current_plan"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="SETTING" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="USERS" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="REPORTS" />
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="LANGUAGE " />
+        </menu>
+    </item>
+
+</menu>

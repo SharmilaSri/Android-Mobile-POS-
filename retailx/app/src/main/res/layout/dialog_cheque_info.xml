@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryMainWhite"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:gravity="center"
+            android:textColor="@color/colorActionBarText"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:text="@string/cheque_no_mandatory"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/cheque_no_mandatory"
+
+            >
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="text"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:textColorHint="@color/popuptextcolor"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/cheque_amount_mandatory"
+
+            >
+        <EditText
+            android:id="@+id/et_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/popuptextcolor"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/cheque_bank_mandatory"
+
+            >
+        <EditText
+            android:id="@+id/et_cheque_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:inputType="text"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/popuptextcolor"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+  <!--      <RelativeLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goToWeb"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:padding="14dp"
+                android:id="@+id/imageView_revenue"
+                android:layout_width="wrap_content"
+                android:background="@drawable/purple_circle"
+                android:layout_height="wrap_content" />-->
+
+
+            <Button
+                android:padding="@dimen/padding"
+                android:id="@+id/cheque_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageView_revenue"
+                android:layout_alignRight="@+id/imageView_revenue"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/cheque_date"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_btn_aqua_green"
+                android:textColor="@color/colorTxtCommon" />
+
+
+  <!--      </RelativeLayout>
+-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_selector"
+            android:padding="@dimen/padding"
+            android:textColor="@color/colorPrimaryMainWhite"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/bg_btn_dull_selector"
+            android:padding="@dimen/padding"
+            android:textColor="@color/colorPrimaryMainWhite"
+            android:text="@string/cancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

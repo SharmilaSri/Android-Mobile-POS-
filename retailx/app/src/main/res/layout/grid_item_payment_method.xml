@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    android:id="@+id/id_grid_payment_method_layout"
+   >
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin"
+        android:id="@+id/id_img_payimage"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_image"
+        />
+
+    <TextView
+        android:layout_below="@+id/id_img_payimage"
+        android:layout_width="match_parent"
+        android:text="CASH"
+        android:textSize="@dimen/small"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/padding"
+        android:id="@+id/id_txt_paymethod"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

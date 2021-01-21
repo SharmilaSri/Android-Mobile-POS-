@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDarkOrange">#2c2255</color>
+    <color name="popuptextcolor">#D997B3</color>
+    <color name="colorDullOrange">#7D7D7E</color>
+    <color name="colorDullOrangeActionBar">#E6A69C</color>
+    <color name="sub_blue">#32B1AC</color>
+    <color name="colorRedError">#FF0000</color>
+    <color name="colorPrimaryMainWhite">#fff</color>#80C8C5
+    <color name="colorActionBarText">#E6222222</color>
+    <color name="colorPrimaryAccentAquaGreen">#80C8C5</color>
+    <color name="colorPrimaryAccentAquaGreenLight">#80C8C5</color>
+    <color name="orange_history_screen">#7D7D7E</color>
+
+    <color name="colorBgGrid">#FCFCFC</color>
+   <!-- <color name="colorBgGrid">#edecec</color>-->
+    <color name="colorBgImageTxt">#7D7D7E </color>
+
+    <color name="scanner_line">#00ceff</color>
+    <color name="bg_list_item_highlight">#EFEFEF</color>
+    <color name="commonColorLight">#707070</color>
+    <color name="colorTxtCommon">#4B4B4B</color>
+    <color name="colorTxtHintOptional">#CECECE</color>
+    <color name="colorTxtHintOptional_madatory">#CECECE</color>
+    <color name="color_bg_sub_type">#ffffff</color>
+    <color name="color_bg_sub_type_highligh">#AFCAF5 </color><!--to be changed-->
+    <color name="grey_icon_color">#888888</color>
+
+
+    <color name="switchTrack">#ffd600</color>
+    <color name="switchTrackDisable">#90caf9</color>
+    <color name="switchTrackActive">#1565c0</color>
+    <color name="switchTrackNormal">#90caf9</color>
+    <color name="switchThumbBgActive">#1b5e20</color>
+    <color name="switchThumbActive">#ad1457</color>
+    <color name="switchThumbkNormal">#64b5f6</color>
+
+
+</resources>

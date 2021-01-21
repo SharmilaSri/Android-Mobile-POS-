@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">RetailX</string>
+    <string name="action_settings">Settings</string>
+
+    <!--common-->
+    <string name="name_mandatory">"නම අනිවාර්යයි *"</string>
+    <string name="email">"විද්යුත් තැපෑල"</string>
+    <string name="email_mandatory">"විද්යුත් තැපෑල *"</string>
+    <string name="empty_field">"හිස් ක්ෂේත්‍රය"</string>
+    <string name="invalid_password">"අවලංගු මුරපදය"</string>
+    <string name="invalid_email">"අවලංගු ඊමේල්"</string>
+    <string name="invalid_phoneno">"අවලංගු දුරකථන අංක"</string>
+    <string name="confirm_delete">"මකන්න තහවුරු කරන්න?"</string>
+    <string name="confirm_delete_msg">"මෙම අයිතමය ස්ථිරවම මකා දැමෙනු ඇත" </string>
+    <string name="cart">"Shopping cart" </string>
+    <string name="customer_list">"පාරිභෝගික" </string>
+    <string name="add_edit">"Add/Edit "</string>
+    <string name="remove_cust">"පාරිභෝගිකයා ඉවත් කරන්න"</string>
+    <string name="clear_cart">"Clear Cart"</string>
+    <string name="success">"සාර්ථකත්වය"</string>
+    <string name="user">"විකුණුම් නියෝජිත"</string>
+    <string name="privilage_manager">"පරිශීලක වරප්‍රසාද"</string>
+    <string name="view_trans">"වෙනත් අයගෙන් බිල්පත් බලන්න"</string>
+    <string name="give_discount">"වට්ටම් ලබා දෙන්න "</string>
+    <string name="create_edit_product">"නිෂ්පාදන"</string>
+    <string name="manage_inventory">"ඉන්වෙන්ටරි"</string>
+    <string name="submit">"ඉදිරිපත් කර"</string>
+    <string name="create_user">"විකුණුම් නියෝජිත"</string>
+    <string name="user_success_msg">"පරිශීලක වරප්‍රසාද වෙනස් කර ඇත. කරුණාකර මෙම පරිශීලකයාට පුරනය වීමට හෝ දැනටමත් පුරනය වී ඇත්නම්, ඉවත් වී නැවත පුරනය වීමට ඉල්ලා සිටින්න"</string>
+    <string name="adminstrator">"පරිපාලක"</string>
+    <string name="error_report">"Oops! Something unexpected has happened. Please report and help us to improve!"</string>
+
+
+    <!--customer-->
+    <string name="company">"සමාගම"</string>
+    <string name="female">"ගැහැණු"</string>
+    <string name="male">"පිරිමි"</string>
+    <string name="add_from_contacts">"සම්බන්ධතා වලින් එකතු කරන්න"</string>
+
+    <!--Splash-->
+    <string name="copyright">DreamFx(Pvt)Ltd.All rights reserved \u00a9 2019</string>
+
+
+    <!--Main Activity-->
+    <string name="empty_basket">"හිස් කූඩය"</string>
+    <string name="empty_basketsg">"හිස් කූඩ" </string>
+    <string name="warning">"අවවාදයයි" </string>
+    <string name="warning_msg">"අනතුරු ඇඟවීමේ පණිවිඩය?" </string>
+    <string name="yes">"ඔව්" </string>
+    <string name="no">"නැත" </string>
+
+    <!--create product-->
+
+    <string name="unit_piece">"ඒකක කෑල්ලක්"</string>
+    <string name="kilo_pound_inch">"කිලෝ රාත්තල් අඟල්"</string>
+    <string name="unit_title">"ඒකක මාතෘකාව :"</string>
+    <string name="product_name">"නිෂ්පාදන නාමය*"</string>
+    <string name="selling_price">"විකුණුම් මිල *"</string>
+    <string name="buying_price">"මිලදී ගැනීමේ මිල"</string>
+    <string name="barcode">"තීරු කේතය"</string>
+    <string name="add_image">"රූපය එක් කරන්න "</string>CATEGORY
+    <string name="category">"වර්ගය"</string>
+    <string name="sell_by_unit">"ඒකකය අනුව විකුණන්න"</string>
+    <string name="add_stock">"කොටස් එකතු කරන්න"</string>
+    <string name="save">"සුරකින්න"</string>
+    <string name="more_details">"වැඩිපුර විස්තර"</string>
+    <string name="add">"එකතු"</string>
+    <string name="new_">"කරන්න"</string>
+
+    <!--bill screen-->
+    <string name="sub_total">"උප එකතුව"</string>
+    <string name="discount">"වට්ටම්"</string>
+    <string name="bill">"බිල් "</string>
+
+    <!--summary screen-->
+    <string name="bill_amount">"බිල් මුළු මුදල"</string>
+    <string name="received_amount">"ලැබුණු මුදල"</string>
+    <string name="enter_amount">"මුදල ඇතුළත් කරන්න"</string>
+    <string name="balance">"ශේෂය"</string>
+    <string name="save_order">"ඇණවුම සුරකින්න"</string>
+    <string name="sales_return">"විකුණුම් ප්‍රතිලාභ"</string>
+    <string name="summary">"සාරාංශය"</string>
+
+    <!--thank you screen-->
+    <string name="thank_you">"ඔබට ස්තුතියි!"</string>
+    <string name="sms_receipt">"SMS RECEIPT"</string>
+    <string name="share_receipt">"කොටස් කුවිතාන්සිය"</string>
+    <string name="print_receipt">"මුද්‍රණ කුවිතාන්සිය"</string>
+    <string name="start_new_sale">"නව විකිණීම ආරම්භ කරන්න"</string>
+
+    <!--bussiness info-->
+    <string name="upload_your_logo">"ඔබේ ලාංඡනය මෙතැනින් උඩුගත කරන්න"</string>
+    <string name="business_name">"ව්යාපාරික නාමය *"</string>
+    <string name="business_contact">"ව්‍යාපාර සම්බන්ධතා *"</string>
+    <string name="business_address">"ව්යාපාරික ලිපිනය *"</string>
+
+    <!--Login-->
+    <string name="forgot_password">මුරපදය අමතක වුණා ද?</string>
+    <string name="welcome">සාදරයෙන් පිළිගනිමු</string>
+    <string name="please_sign">කරුණාකර අත්සන් කරන්න</string>
+    <string name="enter_email">විද්යුත් තැපෑල</string>
+    <string name="password">රහස් පදය *</string>
+    <string name="confirm_password">මුරපදය තහවුරු කරන්න *</string>
+    <string name="enter_phone"> දුරකථනය (Eg 07XXXXXXXX) *</string>
+    <string name="login">ඇතුල් වන්න</string>
+    <string name="skip">මඟ හරින්න</string>
+    <string name="already">දැනටමත්</string>
+    <string name="sign_up">ලියාපදිංචි වන්න</string>
+    <string name="check_out">ගැලට එක් කරන්න</string>
+    <string name="new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    <string name="ok">හරි</string>
+    <string name="grant_permission">ප්‍රදාන අවසරය</string>
+    <string name="permission_camera">අවසර කැමරාව</string>
+    <string name="permission_camera_rationale">අවසර කැමරාවේ තාර්කිකත්වය</string>
+    <string name="no_camera_permission">කැමරා අවසරයක් නැත</string>
+    <string name="low_storage_error">අඩු ගබඩා දෝෂයකි</string>
+    <string name="barcode_header">තීරු කේත ශීර්ෂය</string>
+    <string name="read_barcode">තීරු කේතය කියවන්න</string>
+    <string name="auto_focus">ස්වයංක්‍රීය අවධානය</string>
+    <string name="use_flash">ෆ්ලෑෂ් භාවිතා කරන්න</string>
+    <string name="barcode_success">තීරු කේත සාර්ථකත්වය</string>
+    <string name="barcode_failure">තීරු කේත අසමත් වීම</string>
+    <string name="barcode_error">"තීරු කේත දෝෂයකි: %1$s"</string>
+    <string name="grant">ප්‍රදානය කරන්න</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+
+    <!--addcheckinfo-->
+    <string name="cheque_no_mandatory">පරීක්ෂා කිරීම අනිවාර්ය නොවේ *</string>
+    <string name="add_cheque_title">චෙක් මාතෘකාව එක් කරන්න *</string>
+    <string name="cheque_amount_mandatory">චෙක් මුදල අනිවාර්යයි *</string>
+    <string name="cheque_bank_mandatory">චෙක් බැංකුව අනිවාර්යයි *</string>
+    <string name="cheque_date">චෙක් දිනය</string>
+    <string name="confirm">තහවුරු කරන්න</string>
+
+    <!--add discount-->
+    <string name="add_discount_title">වට්ටම් එකතු කරන්න</string>
+    <string name="bill_total">බිල් එකතුව</string>
+    <string name="discount_amount">වට්ටම් මුදල</string>
+    <string name="discount_rate">වට්ටම් අනුපාතය</string>
+    <string name="percentage">%</string>
+
+    <string-array name="cheque_status">
+        <item>PENDING</item>
+        <item>BANKED</item>
+        <item>CLEARED</item>
+        <item>ENR</item>
+        <item>RD</item>
+        <item>TECHNICAL ERROR</item>
+        <item>EXPIRED</item>
+    </string-array>
+
+    <string-array name="language_support">
+        <item>භාෂාව තෝරන්න</item>
+        <item>ඉංග්රීසි</item>
+        <item>සිංහල</item>
+        <item>දෙමළ</item>
+
+    </string-array>
+
+    <string-array name="credit_status">
+        <item>PENDING</item>
+        <item>CLEARED</item>
+    </string-array>
+
+    <!--add non inventory-->
+    <string name="add_non_inventory_title">නව නිපැයුම් ටෝරි එක් කරන්න</string>
+    <string name="create_new_product">නව නිෂ්පාදනයක් සාදන්න</string>
+    <string name="send_to_cart">කරත්තයට යවන්න</string>
+
+    <!-- add supplier amount-->
+    <string name="add_reset_amount">මුදල එකතු කරන්න හෝ නැවත සකසන්න</string>
+    <string name="add_amount">මුදල එකතු කරන්න</string>
+    <string name="reset_amount">මුදල නැවත සකසන්න</string>
+
+    <!-- add unit of measure-->
+    <string name="enter_quantity">විකුණන ලද ප්‍රමාණය ඇතුළත් කරන්න:</string>
+    <string name="add_amount_quantity">මුදල එකතු කරන්න : 0.000</string>
+    <string name="product_by_kilo">උදාහරණය ඔබ කිලෝ විසින් නිෂ්පාදනයක් විකුණන්නේ නම්</string>
+
+    <!--Number selector-->
+    <string name="items_in_cart">කරත්තයේ ඇති අයිතම</string>
+    <string name="change_price">මිල වෙනස් කරන්න</string>
+
+    <!--transactiondetails dialog-->
+    <string name="bill_history">බිල් ඉතිහාසය</string>
+    <string name="return_txt">ආපසු</string>
+
+    <!--sign up-->
+
+    <string name="enter_details">ඔබේ විස්තර ඇතුළත් කරන්න</string>
+    <string name="first_name">මුල් නම</string>
+    <string name="enter_name">නාමය</string>
+    <string name="last_name">අවසන් නම</string>
+    <string name="address">ලිපිනය</string>
+    <string name="phone_no">දුරකතන අංකය</string>
+    <string name="vat_user">වැට් පාරිභෝගිකයා?</string>
+    <string name="title_activity_main">RetailX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">XXX XXXXXXX</string>
+    <string name="nav_header_subtitle">XXXX@XXX.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_layout_view">LayoutView</string>
+
+    <string name="not_dev_txt">XXXX XXX</string>
+    <string name="title_activity_floater">FloaterActivity</string>
+
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+    <string name="quantity_desc">(The above examples are suitable for \nany unit of  measurement, such as liter, \nfeet, etc.)</string>
+    <string name="measurement_examples"> 0.025 equals 25g \n0.750 equals 750g \n2.250 equals 2.25kg</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+
+    <string name="intro_message">
+       PLEASE TOUCH YOUR CARD BELOW
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">අපි ගැන</string>
+
+    <!--navigation drawer-->
+    <string name="edit_products">නිෂ්පාදන</string>
+    <string name="add_user">විකුණුම් නියෝජිත</string>
+    <string name="saved_order">Saved order</string>
+    <string name="sync">Sync</string>
+    <string name="subscription">දායකත්වය</string>
+    <string name="busines_information">ව්‍යාපාර තොරතුරු</string>
+    <string name="reports">වාර්තා</string>
+    <string name="setting">Setting</string>
+    <string name="about_us">අපි ගැන</string>
+    <string name="help">උදව්</string>
+    <string name="exit">පිටවීම</string>
+
+    <!--setting-->
+    <string name="language">භාෂාව</string>
+</resources>

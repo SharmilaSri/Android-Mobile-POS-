@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAuthorisationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Switch
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/is_admin_switch"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/adminstrator"
+            android:drawablePadding="@dimen/padding"
+            android:drawableLeft="@drawable/ic_help_black_24dp"
+            android:textColor="@color/colorTxtCommon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTxtHintOptional"/>
+
+        <Switch
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/view_transaction_switch"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/view_trans"
+            android:textColor="@color/colorTxtCommon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTxtHintOptional"/>
+
+        <Switch
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/give_discounts_switch"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/give_discount"
+            android:textColor="@color/colorTxtCommon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTxtHintOptional"/>
+
+        <Switch
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/create_edit_products_switch"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/create_edit_product"
+            android:textColor="@color/colorTxtCommon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTxtHintOptional"/>
+
+        <Switch
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/manage_inventory_switch"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_inventory"
+            android:textColor="@color/colorTxtCommon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTxtHintOptional"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:padding="@dimen/padding"
+            >
+
+
+            <Button
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/id_btn_signup"
+                android:layout_width="match_parent"
+                android:text="@string/submit"
+                android:padding="@dimen/padding"
+                android:textSize="@dimen/large"
+                android:onClick="submit"
+                android:textColor="@drawable/txt_btn_login_selector"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_selector"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

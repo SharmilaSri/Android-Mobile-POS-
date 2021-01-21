@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_list"
+            android:visibility="visible">
+
+        </android.support.v7.widget.SearchView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/product_edit_list"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grid"
+            android:visibility="gone">
+
+        </ListView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/empty_show"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_grid"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:padding="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_man"/>
+            <TextView
+                android:id="@+id/empty_list_text"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxtHintOptional"
+                android:lines="2"
+                android:textAlignment="center"
+                android:text="Oops! No Product is available yet...Let's create your first Product"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

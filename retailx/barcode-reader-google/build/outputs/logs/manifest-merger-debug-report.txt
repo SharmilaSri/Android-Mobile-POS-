@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:4:5-35
+application
+ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:10:5-19:19
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:12:9-14:69
+	android:value
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:14:13-66
+	android:name
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:13:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:15:9-17:39
+	android:value
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml:16:13-70
+uses-sdk
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sharmila\Desktop\21_3_RteailX\RetailX\barcode-reader-google\src\main\AndroidManifest.xml

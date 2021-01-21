@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCustomerActivity"
+    android:background="@color/colorPrimaryMainWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin"
+        >
+
+        <Button
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:onClick="addFromContacts"
+            android:text="@string/add_from_contacts"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/bg_btn_seleced"
+            android:textColor="@color/colorPrimaryDarkOrange"
+            android:layout_marginBottom="@dimen/margin"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/name_mandatory"
+            android:textColorHint="@color/colorTxtHintOptional_madatory"
+            >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="@dimen/margin"
+            android:id="@+id/id_cus_name"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_no"
+            android:textColorHint="@color/colorTxtHintOptional_madatory"
+            >
+        <EditText
+            android:id="@+id/id_cus_number"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding"
+            android:gravity="bottom"
+            >
+
+
+            <Button
+                android:id="@+id/id_btn_login"
+                android:layout_width="match_parent"
+                android:text="@string/save"
+                android:textSize="@dimen/large"
+                android:textColor="@drawable/txt_btn_login_selector"
+                android:layout_height="wrap_content"
+                android:onClick="saveCustomer"
+                android:background="@drawable/bg_btn_selector"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

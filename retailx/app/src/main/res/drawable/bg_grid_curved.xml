@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorBgGrid"/>
+    <corners android:bottomLeftRadius="@dimen/bg_grid_more_curved" android:topLeftRadius="@dimen/bg_grid_more_curved" android:topRightRadius="@dimen/bg_grid_more_curved"  android:bottomRightRadius="@dimen/bg_grid_more_curved"/>
+</shape>

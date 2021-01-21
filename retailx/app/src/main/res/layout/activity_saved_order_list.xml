@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:background="@drawable/bg_btn_seleced"
+            android:textColor="@color/colorPrimaryDarkOrange"
+            android:visibility="gone"/>
+
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_list"
+            android:visibility="gone">
+
+        </android.support.v7.widget.SearchView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/saved_order_list"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grid"
+            android:visibility="gone">
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/empty_show"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_grid"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:padding="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_man"/>
+            <TextView
+                android:id="@+id/empty_list_text"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxtHintOptional"
+                android:lines="2"
+                android:textAlignment="center"
+                android:text="Oops! No Customer is available yet...Let's create your first customer"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+            <Button
+                android:id="@+id/id_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:layout_margin="@dimen/margin"
+                android:text="Create"
+                android:textColor="@color/colorPrimaryMainWhite"
+                android:background="@drawable/bg_btn_selector"
+/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
