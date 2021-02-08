@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">RetailX</string>
+    <string name="action_settings">Settings</string>
+
+    <!--common-->
+    <string name="name_mandatory">"பெயர் *"</string>
+    <string name="email">"மின்னஞ்சல்"</string>
+    <string name="email_mandatory">"மின்னஞ்சல் *"</string>
+    <string name="empty_field">"Empty Field"</string>
+    <string name="invalid_password">"தவறான கடவுச்சொல்"</string>
+    <string name="invalid_email">"தவறான மின்னஞ்சல்"</string>
+    <string name="invalid_phoneno">"தவறான தொலைபேசி எண்"</string>
+    <string name="confirm_delete">"நீக்கு என்பதை உறுதிப்படுத்தவா?"</string>
+    <string name="confirm_delete_msg">"இந்த உருப்படி நிரந்தரமாக நீக்கப்படும்." </string>வணிக கூடை
+    <string name="cart">"ஷாப்பிங் கூடை" </string>
+    <string name="customer_list">"வாடிக்கையாளர் பட்டியல்" </string>
+    <string name="add_edit">"சேர் / திருத்து "</string>
+    <string name="remove_cust">"வாடிக்கையாளரை அகற்று"</string>
+    <string name="clear_cart">"எல்லா பொருட்களையும் அகற்றவும்"</string>
+    <string name="success">"வெற்றி"</string>
+    <string name="user">"விற்பனை பிரதிநிதி"</string>
+    <string name="privilage_manager">"சிறப்புரிமை வழங்கு"</string>
+    <string name="view_trans">"மற்றவர்களின் பரிவர்த்தனையைக் காண்க"</string>
+    <string name="give_discount">"தள்ளுபடிகள் கொடுங்கள்"</string>
+    <string name="create_edit_product">"பொருட்களைய உருவாக்கவும்/திருத்தவும்"</string>
+    <string name="manage_inventory">"சரக்குகளை நிர்வகிக்கவும்""</string>
+    <string name="submit">"சமர்ப்பி"</string>
+    <string name="create_user">"விற்பனை பிரதிநிதியை உருவாக்கவும்"</string>
+    <string name="user_success_msg">"பயனர் முன்னுரிமைகள் மாற்றப்பட்டுள்ளன. தயவுசெய்து இந்த பயனரை உள்நுழையச் சொல்லுங்கள் அல்லது ஏற்கனவே உள்நுழைந்திருந்தால், வெளியேறி மீண்டும் உள்நுழையவும்."</string>
+    <string name="adminstrator">"Administrator"</string>
+    <string name="error_report">"Oops! Something unexpected has happened. Please report and help us to improve!"</string>
+
+
+    <!--customer-->
+    <string name="company">"நிறுவனம்"</string>
+    <string name="female">"பெண்"</string>
+    <string name="male">"ஆண்"</string>
+    <string name="add_from_contacts">"தொடர்புகளிலிருந்து சேர்க்கவும்"</string>
+
+    <!--Splash-->
+    <string name="copyright">DreamFx(Pvt)Ltd.All rights reserved \u00a9 2019</string>
+
+
+    <!--Main Activity-->
+    <string name="empty_basket">"EMPTY BASKET"</string>
+    <string name="empty_basketsg">"Select atleast one item to continue" </string>
+    <string name="warning">"எச்சரிக்கை" </string>
+    <string name="warning_msg">"நீங்கள் வெளியேற விரும்புகிறீர்களா?" </string>
+    <string name="yes">"ஆம்" </string>
+    <string name="no">"இல்லை" </string>
+
+    <!--create product-->
+
+    <string name="unit_piece">"பிரிவு / பீஸ்"</string>
+    <string name="kilo_pound_inch">"கிலோ, பவுண்டு, இன்ச் போன்றவை"</string>
+    <string name="unit_title">"அளவீடு :"</string>
+    <string name="product_name">"பொருளின் பெயர் *"</string>
+    <string name="selling_price">"விற்பனை விலை*"</string>
+    <string name="buying_price">"வாங்கும் விலை"</string>
+    <string name="barcode">"பார்கோடு"</string>
+    <string name="add_image">"படத்தைச் சேர்க்கவும் "</string>CATEGORY
+    <string name="category">"வகை"</string>
+    <string name="sell_by_unit">"விற்பனை - அலகு"</string>
+    <string name="add_stock">"அளவு"</string>
+    <string name="save">"சேமி"</string>
+    <string name="more_details">"கூடுதல் தகவல்கள்"</string>
+    <string name="add">"புதிய"</string>
+    <string name="new_">"பொருள்"</string>
+
+    <!--bill screen-->
+    <string name="sub_total">"கூட்டுத்தொகை"</string>
+    <string name="discount">"தள்ளுபடி"</string>
+    <string name="bill">"ரசிது"</string>
+
+    <!--summary screen-->
+    <string name="bill_amount">"பில் மொத்த தொகை"</string>
+    <string name="received_amount">"பெறப்பட்ட தொகை"</string>
+    <string name="enter_amount">"தொகையை உள்ளிடவும்"</string>
+    <string name="balance">"மீதி"</string>
+    <string name="save_order">"ஆர்டரைச் சேமிக்கவும்"</string>
+    <string name="sales_return">"SALES RETURN"</string>
+    <string name="summary">"சுருக்கம்"</string>
+
+    <!--thank you screen-->
+    <string name="thank_you">"நன்றி!"</string>
+    <string name="sms_receipt">"SMS ரசீது"</string>
+    <string name="share_receipt">" ரசீது பகிர்"</string>
+    <string name="print_receipt">"ரசீது அச்சிடு"</string>
+    <string name="start_new_sale">"புதிய விற்பனை"</string>
+
+    <!--bussiness info-->
+    <string name="upload_your_logo">"உங்கள் லோகோவை இங்கே பதிவேற்றவும்"</string>
+    <string name="business_name">"நிறுவனத்தின் பெயர் *"</string>
+    <string name="business_contact">"நிறுவன தொலைபேசி எண் *"</string>
+    <string name="business_address">"நிறுவன முகவரி *"</string>
+
+    <!--Login-->
+    <string name="forgot_password">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+    <string name="welcome">வரவேற்கிறோம்</string>
+    <string name="please_sign">தொடர உள்நுழைக</string>
+    <string name="enter_email">மின்னஞ்சல்</string>
+    <string name="password">கடவுச்சொல் *</string>
+    <string name="confirm_password">கடவுச்சொல்லை உறுதிப்படுத்தவும் *</string>
+    <string name="enter_phone"> தொலைபேசி(Eg 07XXXXXXXX) *</string>
+    <string name="login">உள்நுழைக</string>
+    <string name="skip">ஆஃப்லைன்</string>
+    <string name="already">உறுப்பினர் இல்லையா?</string>
+    <string name="sign_up">பதிவுசெய்க</string>
+    <string name="check_out">ADD TO CART</string>
+    <string name="new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    <string name="ok">சரி</string>
+    <string name="grant_permission">அனுமதி வழங்குதல்</string>
+    <string name="permission_camera">பார்கோடு ஸ்கேன் செய்ய கேமரா அனுமதி தேவை</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">ஆட்டோ ஃபோகஸ்</string>
+    <string name="use_flash">ஃப்ளாஷ் பயன்படுத்தவும்</string>
+    <string name="barcode_success">பார்கோடு வெற்றிகரமாக வாசிக்கப்பட்டது</string>
+    <string name="barcode_failure">பார்கோடு எதுவும் பிடிக்கப்படவில்லை</string>
+    <string name="barcode_error">"பார்கோடு படிப்பதில் பிழை: %1$s"</string>
+    <string name="grant">கிராண்ட்</string>
+    <string name="cancel">ரத்து</string>
+
+    <!--addcheckinfo-->
+    <string name="cheque_no_mandatory">காசோலை எண் *</string>
+    <string name="add_cheque_title"> காசோலை தகவல்</string>
+    <string name="cheque_amount_mandatory">காசோலை தொகையை உள்ளிடவும் *</string>
+    <string name="cheque_bank_mandatory">காசோலை வங்கியை உள்ளிடவும்*</string>
+    <string name="cheque_date">காசோலை தேதி </string>
+    <string name="confirm">உறுதிப்படுத்தவும்</string>
+
+    <!--add discount-->
+    <string name="add_discount_title"> தள்ளுபடி சேர்க்கவும்</string>
+    <string name="bill_total">பில் மொத்தம்</string>
+    <string name="discount_amount">தள்ளுபடி தொகை</string>
+    <string name="discount_rate">தள்ளுபடி விலை</string>
+    <string name="percentage">%</string>
+
+    <string-array name="cheque_status">
+        <item>PENDING</item>
+        <item>BANKED</item>
+        <item>CLEARED</item>
+        <item>ENR</item>
+        <item>RD</item>
+        <item>TECHNICAL ERROR</item>
+        <item>EXPIRED</item>
+    </string-array>
+
+    <string-array name="language_support">
+        <item> மொழியை தேர்ந்தெடுங்கள்</item>
+        <item>ஆங்கிலம்</item>
+        <item>சிங்களம்</item>
+        <item>தமிழ்</item>
+
+    </string-array>
+
+    <string-array name="credit_status">
+        <item>PENDING</item>
+        <item>CLEARED</item>
+    </string-array>
+
+    <!--add non inventory-->
+    <string name="add_non_inventory_title">பட்டியலில் இல்லை தயாரிப்பு</string>
+    <string name="create_new_product">புதிய தயாரிப்பை உருவாக்கவும்</string>
+    <string name="send_to_cart">வண்டிக்கு அனுப்பு</string>
+
+    <!-- add supplier amount-->
+    <string name="add_reset_amount">தொகையைச் சேர்க்கவும் அல்லது மீட்டமைக்கவும்</string>
+    <string name="add_amount">தொகையைச் சேர்க்கவும்</string>
+    <string name="reset_amount">தொகையை மீட்டமை</string>
+
+    <!-- add unit of measure-->
+    <string name="enter_quantity">விற்கப்பட்ட அளவை உள்ளிடவும்:</string>
+    <string name="add_amount_quantity">தொகையைச் சேர்க்கவும் : 0.000</string>
+    <string name="product_by_kilo">"நீங்கள் கிலோவால் பொருளை விற்றால்"</string>
+
+
+    <!--Number selector-->
+    <string name="items_in_cart">வண்டியில் உள்ள உருப்படிகள்</string>
+    <string name="change_price">விலையை மாற்றவும்</string>
+
+    <!--transactiondetails dialog-->
+    <string name="bill_history">பில் வரலாறு</string>
+    <string name="return_txt">Return</string>
+
+    <!--sign up-->
+
+    <string name="enter_details">உங்கள் விவரங்களை உள்ளிடவும்</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="enter_name">NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="phone_no">தொலைபேசி எண்</string>
+    <string name="vat_user"> வாட் வாடிக்கையாளர்?</string>
+    <string name="title_activity_main">RetailX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">விருந்தாளி</string>
+    <string name="nav_header_subtitle">விருந்தாளி</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_layout_view">LayoutView</string>
+
+    <string name="not_dev_txt">XXXX XXX</string>
+    <string name="title_activity_floater">FloaterActivity</string>
+
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+    <string name="quantity_desc">(மேலே உள்ள எடுத்துக்காட்டுகள் லிட்டர், அடி போன்ற எந்த அளவீட்டு அளவிற்கும் பொருத்தமானவை.)</string>
+    <string name="measurement_examples"> 0.025 = 25g \n0.750 = 750g \n2.250 = 2.25kg</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+
+    <string name="intro_message">
+       PLEASE TOUCH YOUR CARD BELOW
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">எங்களை பற்றி</string>
+
+    <string name="edit_products">பொருட்கள்</string>
+    <string name="add_user">புதிய விற்பனை நபர்</string>
+    <string name="saved_order">Saved order</string>
+    <string name="sync">Sync</string>
+    <string name="subscription">சந்தா</string>
+    <string name="busines_information">நிறுவனத்தின் தகவல்</string>
+    <string name="reports">அறிக்கைகள்</string>
+    <string name="setting">Setting</string>
+    <string name="about_us">எங்களை பற்றி</string>
+    <string name="help">உதவி</string>
+    <string name="exit">வெளியேறு</string>
+
+    <!--setting-->
+    <string name="language">மொழி</string>
+</resources>

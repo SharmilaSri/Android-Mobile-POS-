@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".CreateProductActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:background="@color/colorPrimaryMainWhite"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            >
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/product_name"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/id_productname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColorHint="@color/colorTxtHintOptional_madatory"  />
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/selling_price"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"
+                    >
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/id_selling_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/buying_price"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"
+                    >
+
+
+                <EditText
+                    android:id="@+id/id_buying_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                     />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorTxtHintOptional_madatory"
+                        android:hint="@string/barcode">
+
+                    <EditText
+                        android:id="@+id/id_product_barcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_view_week_black_24dp"
+
+                        android:singleLine="true"
+                        android:textColorHint="@color/colorTxtHintOptional_madatory" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/id_barcode_drawable_right"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="right"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:onClick="scanBarCode" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/id_btn_more_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBgGrid"
+                    android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                    android:gravity="left|center"
+                    android:padding="@dimen/padding"
+                    android:text="@string/more_details"
+                    android:onClick="showOptionalDetails"
+                    android:textColor="@color/commonColorLight" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/more_details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_grid"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="@dimen/padding"
+                    android:orientation="vertical">
+
+
+                    <com.retailx.dreamdx.retailx.utils.CircularImageView
+                        android:id="@+id/id_imageCamera"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:onClick="addImageCamera"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/camera_icon" />
+
+                    <TextView
+                        android:id="@+id/image_gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:onClick="addImageCamera"
+                        android:paddingTop="@dimen/nav_header_vertical_spacing"
+                        android:text="@string/add_image"
+                        android:textColor="@color/commonColorLight"
+                        android:textSize="@dimen/small" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/id_btn_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:background="?attr/editTextBackground"
+                    android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                    android:drawablePadding="@dimen/padding"
+                    android:gravity="center_vertical"
+                    android:hint="@string/category"
+                    android:onClick="showCatList"
+                    android:padding="@dimen/padding"
+                    android:textColorHint="@color/commonColorLight" />
+
+
+                <TextView
+                    android:id="@+id/id_btn_unit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:background="?attr/editTextBackground"
+                    android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+                    android:drawablePadding="@dimen/padding"
+                    android:gravity="center_vertical"
+                    android:hint="@string/sell_by_unit"
+                    android:onClick="unitClicked"
+                    android:padding="@dimen/padding"
+                    android:textColorHint="@color/commonColorLight" />
+
+
+                <TextView
+                    android:id="@+id/id_btn_add_stock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:background="?attr/editTextBackground"
+                    android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:drawablePadding="@dimen/padding"
+                    android:gravity="center_vertical"
+                    android:hint="@string/add_stock"
+                    android:onClick="moveToStockActivity"
+                    android:padding="@dimen/padding"
+                    android:textColorHint="@color/commonColorLight" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimaryMainWhite"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/bg_btn_selector"
+            android:onClick="insertOrUpdateProductDetails"
+            android:text="@string/save"
+            android:textColor="@drawable/txt_btn_login_selector" />
+    </LinearLayout>
+
+
+</LinearLayout>

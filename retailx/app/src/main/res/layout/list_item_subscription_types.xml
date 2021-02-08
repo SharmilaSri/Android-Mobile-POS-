@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:background="@drawable/bg_sub_types_selector"
+            android:id="@+id/layout"
+            >
+
+            <TextView
+                android:padding="@dimen/padding"
+                android:id="@+id/sub_type_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:gravity="center"
+                 />
+
+            <TextView
+                android:id="@+id/sub_type_description"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxtHintOptional_madatory"
+                android:textSize="@dimen/quantity_size_xs"/>
+
+            <TextView
+                android:id="@+id/sub_type_price"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sub_type_title_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_most_popular"
+                android:padding="3dp"
+                android:textSize="@dimen/quantity_size_xs"
+                android:textColor="@color/colorPrimaryMainWhite"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

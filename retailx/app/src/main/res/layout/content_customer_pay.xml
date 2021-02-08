@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CustomerPayActivity"
+    tools:showIn="@layout/activity_customer_pay">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="7"
+        android:background="@color/colorPrimaryMainWhite"
+       >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:background="@color/colorPrimaryAccentAquaGreen"
+        android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:layout_marginTop="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorDullOrange"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:text="@string/bill_amount"/>
+        <TextView
+            android:id="@+id/txt_bill_amount"
+            android:layout_marginTop="@dimen/margin"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDarkOrange"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:text="12000"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal|center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qr_code"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margin"
+                android:inputType="numberDecimal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDarkOrange"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="Scan QR code here"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal|center_vertical">
+
+
+            <Button
+                android:id="@+id/id_btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_margin="@dimen/margin"
+                android:background="@drawable/bg_btn_selector"
+                android:padding="@dimen/padding"
+                android:text="PAY"
+                android:textColor="@drawable/txt_btn_login_selector"
+                android:textSize="@dimen/large" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

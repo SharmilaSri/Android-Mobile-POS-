@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpeningBalActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3.5"
+        android:background="@color/colorPrimaryMainWhite">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:padding="@dimen/padding"
+        android:background="@drawable/background">
+
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_grid">
+
+            <EditText
+                android:id="@+id/id_opening_balance"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Opening Balance"
+                android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/labelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:textSize="@dimen/quantity_size_xs"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Make Sure Your Opening Balance is Right"/>
+
+        <ListView
+            android:visibility="gone"
+            android:id="@+id/id_opening_bal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.75"
+            android:padding="@dimen/padding">
+        </ListView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="0.5"
+        >
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Notify and Skip"
+                android:onClick="skip"
+                android:textColor="@color/colorPrimaryMainWhite"
+                android:background="@drawable/bg_btn_selector"/>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:onClick="goToLogin"
+            android:textColor="@color/colorPrimaryMainWhite"
+            android:background="@drawable/bg_btn_selector"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

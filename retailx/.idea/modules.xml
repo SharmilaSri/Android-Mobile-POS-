@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/retailx.iml" filepath="$PROJECT_DIR$/.idea/modules/retailx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/retailx.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/retailx.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barcode-reader/retailx.barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/barcode-reader/retailx.barcode-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/picasso/retailx.picasso.iml" filepath="$PROJECT_DIR$/.idea/modules/picasso/retailx.picasso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/picasso-pollexor/retailx.picasso-pollexor.iml" filepath="$PROJECT_DIR$/.idea/modules/picasso-pollexor/retailx.picasso-pollexor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/picasso-sample/retailx.picasso-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/picasso-sample/retailx.picasso-sample.iml" />
+    </modules>
+  </component>
+</project>

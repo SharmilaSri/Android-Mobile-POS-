@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textColor="@color/colorActionBarText"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:text="@string/add_discount_title"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin"
+          >
+
+            <TextView
+                android:id="@+id/current_value_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/bill_amount"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/colorTxtHintOptional_madatory"
+                />
+
+            <TextView
+                android:id="@+id/current_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:inputType="text"
+                android:textColor="@color/popuptextcolor"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+        </LinearLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:hint="@string/discount_amount"
+
+            >
+
+        <EditText
+            android:id="@+id/et_amount_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/colorTxtHintOptional_madatory"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin"
+                    android:hint="@string/discount_rate"
+
+                    >
+
+                <EditText
+                    android:id="@+id/et_amount_percentage_discount"
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"
+                    android:textColor="@color/colorTxtCommon"
+                    />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_alignParentRight="true"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"
+                    android:text="@string/percentage"/>
+
+            </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/bg_btn_selector"
+            android:textColor="@drawable/txt_btn_login_selector"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/bg_btn_dull_selector"
+            android:padding="@dimen/padding"
+            android:textColor="@drawable/txt_btn_login_selector"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

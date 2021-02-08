@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedProductsListActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryMainWhite"
+        android:weightSum="10"
+        android:padding="@dimen/padding">
+
+       <ListView
+           android:background="@drawable/bg_grid"
+           android:id="@+id/id_products_list"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginBottom="@dimen/margin"
+           android:layout_weight="6">
+
+       </ListView>
+
+        <LinearLayout
+            android:id="@+id/bill_dicount_layour"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/sub_total"
+                android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+
+            <TextView
+                android:id="@+id/text_sub_total"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:paddingRight="@dimen/padding"
+                android:text="0.0"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="@dimen/margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryAccentAquaGreen"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/discount"/>
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryAccentAquaGreen"
+                android:id="@+id/text_bill_discount"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/padding"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="0.0"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingRight="@dimen/padding"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding">
+
+            <Button
+                android:id="@+id/id_show_all"
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:onClick="toggleBottomSheet"
+                android:layout_height="48dp"
+                android:padding="@dimen/padding"
+                android:textSize="@dimen/quantity_size_xs"
+                android:background="@drawable/bg_grid"
+                android:drawableLeft="@drawable/ic_more_horiz_black_24dp"
+                android:layout_marginRight="@dimen/margin"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.8"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimaryMainWhite"
+                >
+
+                <Button
+                    android:id="@+id/id_btn_total_items"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingLeft="@dimen/padding"
+                    android:gravity="left|center_vertical"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_btn_item"
+                    android:minHeight="?attr/actionBarSize"
+                    android:text="0 ITEMS"
+                    android:onClick="goToSaveTransaction"
+                    android:textAppearance="@android:style/TextAppearance.Small"
+                    android:textColor="@color/colorPrimaryMainWhite" />
+
+                <Button
+
+                    android:id="@+id/id_btn_total"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_btn_total"
+                    android:minHeight="?attr/actionBarSize"
+                    android:text="0.0"
+                    android:onClick="goToSaveTransaction"
+                    android:textAppearance="@android:style/TextAppearance.Small"
+                    android:drawableRight="@drawable/ic_arrow_forward_white_24dp"
+                    android:drawablePadding="@dimen/padding"
+                    android:textColor="@color/colorPrimaryMainWhite" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/bottom_sheet" />
+
+</android.support.design.widget.CoordinatorLayout>

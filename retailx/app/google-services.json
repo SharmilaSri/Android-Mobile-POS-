@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103299087318",
+    "firebase_url": "https://retailx.firebaseio.com",
+    "project_id": "retailx",
+    "storage_bucket": "retailx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103299087318:android:154a0ac82ec613a7",
+        "android_client_info": {
+          "package_name": "com.retailx.dreamdx.retailx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103299087318-bnb4lrqcfegtkbi7nb0g2r34m3ifq9ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2AdOkLGLaisGqBhqY8hd5g5RKk3Lctyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103299087318-bnb4lrqcfegtkbi7nb0g2r34m3ifq9ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

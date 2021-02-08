@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:id="@+id/linear_lay_splash_bg"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDarkOrange">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SalesDrive"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sell | Manage | Expand"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

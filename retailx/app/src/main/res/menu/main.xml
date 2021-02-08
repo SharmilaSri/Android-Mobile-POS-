@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_add_people"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="CUSTOMER"
+        app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_syncronise"
+      android:icon="@drawable/ic_sync_black_24dp"
+      android:title="SYNC"
+      app:showAsAction="ifRoom"
+      />
+
+
+    <item android:id="@+id/menu_toggle_log"
+        android:title="@string/sample_show_log"
+        android:visible="false"/>
+
+</menu>

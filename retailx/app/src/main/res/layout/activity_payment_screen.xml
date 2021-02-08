@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryMainWhite"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/bg_grid"
+            android:padding="@dimen/padding"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2">
+                <TextView
+                    android:id="@+id/labelTxtType"
+                    android:paddingLeft="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/labelTxtAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:textColor="@color/colorPrimaryAccentAquaGreen"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:id="@+id/labelTxtTotal"
+                    android:padding="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimaryAccentAquaGreen"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:id="@+id/labelTxtTotalAmount"
+                    android:layout_width="0dp"
+                    android:padding="@dimen/padding"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin"
+
+                >
+
+                <EditText
+                    android:background="@color/colorBgGrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Card Number"
+                    android:padding="@dimen/padding"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin"
+
+                >
+
+                <EditText
+                    android:background="@color/colorBgGrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Card Name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:padding="@dimen/padding"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Card Details"
+                    android:padding="@dimen/padding"
+                    android:textColor="@color/colorTxtHintOptional_madatory"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <EditText
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:padding="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Month"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/colorBgGrid"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+                <EditText
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:padding="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Year"
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/colorBgGrid"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+                <EditText
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:hint="CVV"
+                    android:padding="@dimen/padding"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/colorBgGrid"
+                    android:textColorHint="@color/colorTxtHintOptional_madatory"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding"
+
+                >
+
+                <CheckBox
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Save card details"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="bottom|center_horizontal"
+                >
+
+
+                <TextView
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:text="Buy With Google Play"/>
+                <Button
+                    android:background="@drawable/bg_btn_seleced"
+                    android:textColor="@color/colorPrimaryDarkOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:padding="@dimen/padding"
+                    android:textSize="@dimen/large"
+                    android:text="CONFIRM"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

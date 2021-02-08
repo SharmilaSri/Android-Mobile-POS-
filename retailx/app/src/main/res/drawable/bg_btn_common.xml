@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <stroke android:color="@color/colorPrimaryDarkOrange" android:width="2dp"/>
+    <solid android:color="@color/colorPrimaryMainWhite"/>
+    <corners android:bottomLeftRadius="@dimen/bg_shape_padding_login" android:topLeftRadius="@dimen/bg_shape_padding_login" android:topRightRadius="@dimen/bg_shape_padding_login"  android:bottomRightRadius="@dimen/bg_shape_padding_login"/>
+</shape>
+

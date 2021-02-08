@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BussinesInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:background="@color/colorBgGrid"
+            android:orientation="vertical">
+
+
+            <com.retailx.dreamdx.retailx.utils.CircularImageView
+                android:id="@+id/img_logo"
+                android:onClick="openDialog"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/camera_icon" />
+
+
+            <TextView
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/email_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_your_logo"
+                android:textColor="@android:color/holo_red_dark"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:hint="@string/business_name"
+                >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/edt_bus_name"
+                android:padding="@dimen/padding"
+                android:maxLength="35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorTxtHintOptional_madatory"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:hint="@string/business_contact"
+                >
+            <android.support.design.widget.TextInputEditText
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/edt_bus_contact"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:maxLength="35"
+                android:textColorHint="@color/colorTxtHintOptional_madatory"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:hint="@string/business_address"
+                >
+            <android.support.design.widget.TextInputEditText
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/edt_bus_address"
+                android:padding="@dimen/padding"
+                android:maxLength="35"
+                android:textColorHint="@color/colorTxtHintOptional_madatory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="@dimen/padding"
+            android:gravity="bottom"
+            >
+
+
+            <Button
+                android:id="@+id/id_btn_login"
+                android:layout_width="match_parent"
+                android:text="SAVE"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="@dimen/large"
+                android:textColor="@drawable/txt_btn_login_selector"
+                android:layout_height="wrap_content"
+                android:onClick="saveBussinessInfo"
+                android:background="@drawable/bg_btn_selector"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

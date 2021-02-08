@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="@color/colorPrimaryMainWhite"
+    tools:context=".SaveTransactionActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:background="@color/colorPrimaryAccentAquaGreen"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryMainWhite"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:text="@string/bill_amount"/>
+            <TextView
+                android:id="@+id/txt_bill_amount"
+                android:layout_marginTop="@dimen/margin"
+                android:inputType="numberDecimal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryMainWhite"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="00"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2.5"
+            android:weightSum="3"
+            android:background="@color/colorBgGrid"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_marginTop="@dimen/margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimaryAccentAquaGreen"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="@string/received_amount"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="@dimen/margin"
+                android:padding="@dimen/padding"
+                android:id="@+id/id_received_amount"
+                android:inputType="numberDecimal"
+                android:hint="@string/enter_amount"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColorHint="@color/colorTxtHintOptional_madatory" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3.5"
+
+            android:background="@color/colorBgGrid"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/medium"
+                android:text="@string/balance"/>
+
+            <TextView
+                android:id="@+id/id_txt_balance"
+                android:layout_margin="@dimen/margin"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:background="@drawable/bg_btn_seleced"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:textColor="@color/colorPrimaryDarkOrange"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:text="00"/>
+
+
+            <Button
+                android:id="@+id/id_txt_save_order"
+                android:layout_margin="@dimen/margin"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:background="@drawable/bg_btn_seleced"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin"
+                android:textColor="@color/colorPrimaryDarkOrange"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:onClick="saveOrderDialog"
+                android:text="@string/save_order"/>
+
+        </LinearLayout>
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:numColumns="3"
+            android:isScrollContainer="false"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:id="@+id/id_paymethod_grid"
+            android:layout_weight="4">
+
+        </GridView>
+
+
+</LinearLayout>

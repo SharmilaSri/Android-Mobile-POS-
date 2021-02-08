@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F2F2F2"
+    android:layout_margin="1dp"
+    android:weightSum="10"
+   >
+
+
+
+
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:padding="@dimen/padding"
+        android:gravity="center"
+        android:id="@+id/layout_linear">
+    <LinearLayout
+        android:layout_margin="@dimen/margin"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_trans_id"/>
+    </LinearLayout>
+       <!-- <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTxtHintOptional"/>-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_trans_date"/>
+    </LinearLayout>
+       <!-- <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTxtHintOptional"/>-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_trans_total_amount"/>
+        </LinearLayout>
+
+
+       <!-- <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTxtHintOptional"/>-->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/deleteIcon"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="@dimen/margin"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete_black_24dp"/>
+    </LinearLayout>
+</LinearLayout>

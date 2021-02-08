@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="@string/edit_products" />
+
+       <!-- <item
+            android:id="@+id/add_user"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="@string/add_user" />-->
+
+
+        <item
+            android:id="@+id/saved_orders"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="@string/saved_order" />
+
+
+
+       <!-- <item
+            android:id="@+id/sync"
+            android:icon="@drawable/ic_sync_grey_24dp"
+            android:title="@string/sync" />-->
+
+     <!-- <item
+            android:id="@+id/subscription"
+            android:icon="@drawable/ic_subscriptions_black_24dp"
+            android:title="@string/subscription" />-->
+
+        <item
+            android:id="@+id/bussiness_info"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/busines_information"
+            />
+
+
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@drawable/ic_insert_chart_black_24dp"
+                android:title="@string/reports" />
+
+
+            <item
+                android:id="@+id/trans_history"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="@string/bill_history" />
+
+            <!--<item
+                android:id="@+id/id_supplier"
+                android:icon="@drawable/ic_supervisor_account_black_24dp"
+                android:title="SUPPLIERS" />-->\
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_applications_black_24dp"
+                android:title="@string/setting" />
+
+            <!--<item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/about_us" />-->
+
+            <!-- <item
+            android:id="@+id/id_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/help" />-->
+
+            <!--<item
+                  android:id="@+id/logout"
+                  android:icon="@drawable/ic_exit_to_app_black_24dp"
+                  android:title="Logout" />-->
+
+          </menu>
+      </item>
+
+  </menu>

@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">RetailX</string>
+    <string name="action_settings">அமைப்புகள்</string>
+
+    <!--common-->
+    <string name="name_mandatory">"Name *"</string>
+    <string name="email">"Email"</string>
+    <string name="email_mandatory">"Email *"</string>
+    <string name="empty_field">"Empty Field"</string>
+    <string name="invalid_password">"Invalid Password"</string>
+    <string name="invalid_email">"Invalid Email"</string>
+    <string name="invalid_phoneno">"Invalid Phone Number"</string>
+    <string name="confirm_delete">"Confirm Delete ? "</string>
+    <string name="confirm_delete_msg">"This item will be permanetly deleted." </string>
+    <string name="cart">"Shopping cart" </string>
+    <string name="customer_list">"Customer List" </string>
+    <string name="add_edit">"Add/Edit "</string>
+    <string name="remove_cust">"REMOVE CUSTOMER"</string>
+    <string name="clear_cart">"Clear Cart"</string>
+    <string name="success">"Success"</string>
+    <string name="user">"Users"</string>
+    <string name="privilage_manager">"Privilage Manager"</string>
+    <string name="view_trans">"View transactions from other cashiers"</string>
+    <string name="give_discount">"Give Discounts"</string>
+    <string name="create_edit_product">"Create or edit products"</string>
+    <string name="manage_inventory">"Manage inventory""</string>
+    <string name="submit">"Submit"</string>
+    <string name="create_user">"Create cashier"</string>
+    <string name="user_success_msg">"cashiers Privilages are changed.\nPlease ask this cashiers to login \nor if already logged in, to logout \nand login again"</string>
+    <string name="adminstrator">"Administrator"</string>
+    <string name="error_report">"Oops! Something unexpected has happened. Please report and help us to improve!"</string>
+
+
+    <!--customer-->
+    <string name="company">"Company"</string>
+    <string name="female">"Female"</string>
+    <string name="male">"Male"</string>
+    <string name="add_from_contacts">"ADD FROM CONTACTS"</string>
+
+    <!--Splash-->
+    <string name="copyright">DreamFx(Pvt)Ltd.All rights reserved \u00a9 2019</string>
+
+
+    <!--Main Activity-->
+    <string name="empty_basket">"EMPTY BASKET"</string>
+    <string name="empty_basketsg">"Select atleast one item to continue" </string>
+    <string name="warning">"Warning" </string>
+    <string name="warning_msg">"Do you want to exit?" </string>
+    <string name="yes">"Yes" </string>
+    <string name="no">"No" </string>
+
+    <!--create product-->
+
+    <string name="unit_piece">"Unit/Piece"</string>
+    <string name="kilo_pound_inch">"Kilo,Pound,Inches etc"</string>
+    <string name="unit_title">"Sell By:"</string>
+    <string name="product_name">"Product Name *"</string>
+    <string name="selling_price">"Selling Price *"</string>
+    <string name="buying_price">"Buying Price"</string>
+    <string name="barcode">"Barcode"</string>
+    <string name="add_image">"Add Image(Optional)"</string>CATEGORY
+    <string name="category">"Category"</string>
+    <string name="sell_by_unit">"Sell By - Unit"</string>
+    <string name="add_stock">"Add Stock"</string>
+    <string name="save">"SAVE"</string>
+    <string name="more_details">"More details"</string>
+    <string name="add">"Add"</string>
+    <string name="new_">"New"</string>
+
+
+    <!--bill screen-->
+    <string name="sub_total">"Sub Total"</string>
+    <string name="discount">"Discount"</string>
+    <string name="bill">"Bill"</string>
+
+    <!--summary screen-->
+    <string name="bill_amount">"Bill Total Amount"</string>
+    <string name="received_amount">"Received Amount"</string>
+    <string name="enter_amount">"Enter Amount"</string>
+    <string name="balance">"Balance"</string>
+    <string name="save_order">"SAVE ORDER"</string>
+    <string name="sales_return">"SALES RETURN"</string>
+    <string name="summary">"Summary"</string>
+
+    <!--thank you screen-->
+    <string name="thank_you">"Thank You!"</string>
+    <string name="sms_receipt">"SMS RECEIPT"</string>
+    <string name="share_receipt">"SHARE RECEIPT"</string>
+    <string name="print_receipt">"PRINT RECEIPT"</string>
+    <string name="start_new_sale">"START NEW SALE"</string>
+
+    <!--bussiness info-->
+    <string name="upload_your_logo">"Upload Your Logo Here"</string>
+    <string name="business_name">"Business Name *"</string>
+    <string name="business_contact">"Business Contact *"</string>
+    <string name="business_address">"Business Address *"</string>
+
+    <!--Login-->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="welcome">Welcome To</string>
+    <string name="please_sign">Please Sign In to Continue</string>
+    <string name="enter_email">Email</string>
+    <string name="password">Password *</string>
+    <string name="confirm_password">Confirm Password *</string>
+    <string name="enter_phone"> Phone(Eg 07XXXXXXXX) *</string>
+    <string name="login">LOGIN</string>
+    <string name="skip">WORK OFFLINE</string>
+    <string name="already">Not a memeber?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="check_out">ADD TO CART</string>
+    <string name="new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    <string name="ok">OK</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_camera">This app needs camera permission to scan barcode</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="grant">GRANT</string>
+    <string name="cancel">Cancel</string>
+
+    <!--addcheckinfo-->
+    <string name="cheque_no_mandatory">Cheque No *</string>
+    <string name="add_cheque_title">Add Cheque Info</string>
+    <string name="cheque_amount_mandatory">Enter Cheque Amount *</string>
+    <string name="cheque_bank_mandatory">Enter Cheque Bank *</string>
+    <string name="cheque_date">Cheque Date</string>
+    <string name="confirm">Confirm</string>
+
+    <!--add discount-->
+    <string name="add_discount_title">Add Discount</string>
+    <string name="bill_total">Bill Total</string>
+    <string name="discount_amount">Discount Amount</string>
+    <string name="discount_rate">Discount Rate</string>
+    <string name="percentage">%</string>
+
+    <string-array name="cheque_status">
+        <item>PENDING</item>
+        <item>BANKED</item>
+        <item>CLEARED</item>
+        <item>ENR</item>
+        <item>RD</item>
+        <item>TECHNICAL ERROR</item>
+        <item>EXPIRED</item>
+    </string-array>
+
+    <string-array name="language_support">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>Sinhala</item>
+        <item>Tamil</item>
+
+    </string-array>
+
+    <string-array name="credit_status">
+        <item>PENDING</item>
+        <item>CLEARED</item>
+    </string-array>
+
+    <!--add non inventory-->
+    <string name="add_non_inventory_title">Add Non-Inventory</string>
+    <string name="create_new_product">Create New product</string>
+    <string name="send_to_cart">Send To Cart</string>
+
+    <!-- add supplier amount-->
+    <string name="add_reset_amount">Add or Reset Amount</string>
+    <string name="add_amount">Add Amount</string>
+    <string name="reset_amount">Reset Amount</string>
+
+    <!-- add unit of measure-->
+    <string name="enter_quantity">Enter the Quantity Sold:</string>
+    <string name="add_amount_quantity">Add Amount : 0.000</string>
+    <string name="product_by_kilo">Example : If you sell a product by Kilo</string>
+
+    <!--Number selector-->
+    <string name="items_in_cart">Items in the Cart</string>
+    <string name="change_price">Change Price</string>
+
+    <!--transactiondetails dialog-->
+    <string name="bill_history">Bill History</string>
+    <string name="return_txt">Return</string>
+
+    <!--sign up-->
+
+    <string name="enter_details">Enter Your Details</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="enter_name">NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="vat_user">Vat Customer?</string>
+    <string name="title_activity_main">RetailX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">XXX XXXXXXX</string>
+    <string name="nav_header_subtitle">XXXX@XXX.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_layout_view">LayoutView</string>
+
+    <string name="not_dev_txt">XXXX XXX</string>
+    <string name="title_activity_floater">FloaterActivity</string>
+
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+    <string name="quantity_desc">(The above examples are suitable for \nany unit of  measurement, such as liter, \nfeet, etc.)</string>
+    <string name="measurement_examples"> 0.025 equals 25g \n0.750 equals 750g \n2.250 equals 2.25kg</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+
+    <string name="intro_message">
+       PLEASE TOUCH YOUR CARD BELOW
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">AboutUs</string>
+
+    <!--navigation drawer-->
+    <string name="edit_products">Edit Products</string>
+    <string name="add_user">Add cashier</string>
+    <string name="saved_order">Saved order</string>
+    <string name="sync">Sync</string>
+    <string name="subscription">Subscription</string>
+    <string name="busines_information">Business Information</string>
+    <string name="reports">Reports</string>
+    <string name="setting">Setting</string>
+    <string name="about_us">About Us</string>
+    <string name="help">Help</string>
+    <string name="exit">Logout</string>
+
+    <!--setting-->
+    <string name="language">Language</string>
+    <string name="title_activity_customer_pay">CustomerPayActivity</string>
+
+</resources>
